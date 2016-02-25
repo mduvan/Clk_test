@@ -1,4 +1,9 @@
-/*###########
+/*
+Bu sitenin şablon CSS ayarlarıdır.
+Ana içerik hariç diğer sectionların style ayarları burada yapılr.
+Diğer her sayfa için bu dosya ile beraber o sayfaya ait CSS dosyasının eklenmesi gerekir
+
+##############
 Genel ayarlar
 #############*/
 
@@ -39,7 +44,6 @@ section ayarları
 }
 .ana-icerik {
     background-color: #fff;
-    height: 500px;
 }
 .alt-bant {
     background-color: #000;
@@ -177,6 +181,7 @@ body > nav > div {
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
+
 /*################
 ALT BANT
 ##################*/
@@ -186,12 +191,10 @@ ALT BANT
 }
 @media screen and (max-width: 800px) {
     .alt-logo {
-        float:none;
+        float: none;
         margin: auto;
-
     }
 }
-
 .alt-bant {
     background-color: black;
     padding: 20px;

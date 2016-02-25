@@ -1,0 +1,40 @@
+/*ANA İÇERİK
+Bu dosya index.html e eklenmelidir
+*/
+
+#main-content {
+    background-color: #fff;
+}
+#uyesayi {
+    background-color: #fff;
+    color: #666666;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: 300;
+    font-size: 12px;
+}
+.sayispan {
+    color: #993366;
+}
+.carousel {
+    margin-bottom: 10px;
+}
+.left {
+    top: 30%;
+    bottom: 70%;
+    width: auto;
+}
+.right {
+    top: 30%;
+    bottom: 70%;
+    width: auto;
+}
+#MyCarousel > a.left.carousel-control > img {
+    color: black;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+#MyCarousel > div > div.item.active > a > img {
+    margin: 0 auto;
+}
