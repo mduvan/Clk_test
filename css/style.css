@@ -1,0 +1,142 @@
+/*###########
+Genel ayarlar
+#############*/
+
+body {
+    background-color: #333333;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin: auto;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #ff6633;
+    text-decoration: none;
+}
+.wrap-1170 {
+    max-width: 1170px;
+}
+
+/*###########
+section ayarları
+#############*/
+
+.social {
+    background-color: #333333;
+    height: 48px;
+    margin: 0;
+}
+.section-logo {
+    background-color: #000;
+    height: 130px;
+    padding-top: 20px;
+}
+.navigasyon {
+    background-color: #333333;
+    height: 42px;
+}
+.ana-icerik {
+    background-color: #fff;
+    height: 500px;
+}
+.alt-bant {
+    background-color: #000;
+    height: 100px;
+}
+
+/*###########
+social linkler
+#############*/
+
+body > section.social > div > div > div {
+    text-align: right;
+    margin-right: 15px;
+}
+body > section.social > div > div > div > ul > li {
+    display: inline;
+    font-weight: 300;
+    font-size: 12px;
+}
+body > section.social > div > div > div > ul {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+body > section.social > div > div > div > ul > li> a> img {
+    vertical-align: baseline;
+}
+
+/*###########
+Logo ve giriş
+#############*/
+
+.img-logo {
+    float: left;
+}
+.input-grp-giris {
+    float: right;
+    padding-top: 20px;
+}
+.input-antalya {
+    background-color: #333333;
+    color: #fff;
+    border: 0;
+    max-width: 178px;
+    height: 30px;
+    font-weight: 400;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.btn-uye {
+    background-color: #ff6633;
+    border-color: #ff6633;
+    border-radius: 0;
+    padding: 0 10px 0 10px;
+    margin: 0 2px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 108px;
+    height: 30px;
+    line-height: 2;
+    display: inline-block;
+    text-align: center;
+}
+.btn-giris {
+    background-color: #993366;
+    border-color: #993366;
+    border-radius: 0;
+    padding: 0 0 0 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    width: 108px;
+    height: 30px;
+    line-height: 2;
+    display: inline-block;
+}
+.txt-sifre {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/*logo ve giriş @media*/
+
+@media screen and (max-width: 800px) {
+    #img-logo {
+        height: 50px;
+    }
+    .section-logo {
+        height: 180px;
+    }
+    .input-grp-giris {
+        padding-top: 0;
+    }
+	.txt-sifre{
+		float: left;
+	}
+}
